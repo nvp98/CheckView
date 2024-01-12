@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EPORTAL_UNISModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ID_Terminal">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDTerminal" Type="int" />
+    <Property Name="TenCong" Type="nvarchar" MaxLength="350" />
+  </EntityType>
+  <EntityContainer Name="EPORTAL_UNISModelStoreContainer">
+    <EntitySet Name="ID_Terminal" EntityType="Self.ID_Terminal" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EPORTAL_UNISModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="EPORTAL_UNISEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ID_Terminal" EntityType="EPORTAL_UNISModel.ID_Terminal" />
+  </EntityContainer>
+  <EntityType Name="ID_Terminal">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDTerminal" Type="Int32" />
+    <Property Name="TenCong" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

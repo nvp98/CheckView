@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EPORTAL_UNISModelStoreContainer" CdmEntityContainer="EPORTAL_UNISEntities">
+    <EntitySetMapping Name="ID_Terminal">
+      <EntityTypeMapping TypeName="EPORTAL_UNISModel.ID_Terminal">
+        <MappingFragment StoreEntitySet="ID_Terminal">
+          <ScalarProperty Name="TenCong" ColumnName="TenCong" />
+          <ScalarProperty Name="IDTerminal" ColumnName="IDTerminal" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
